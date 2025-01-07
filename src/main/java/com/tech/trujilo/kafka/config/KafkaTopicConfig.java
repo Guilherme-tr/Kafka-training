@@ -12,7 +12,7 @@ import java.util.Map;
 
 @Configuration
 public class KafkaTopicConfig {
-    @Value(value = "${spring.kafka.bootsatrap-servers}")
+    @Value(value = "${spring.kafka.bootstrap-servers}")
     private String bootstrapAddress;
 
     @Bean
